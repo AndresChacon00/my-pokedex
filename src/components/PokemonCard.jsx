@@ -30,10 +30,14 @@ function PokemonCard({url}) {
         return <p>Loading...</p>
     }
 
+    const capitalizeFirstLetter = (string) => {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+    }
+
     return (
         <Link to={`/detail/${pokemon.name}`}>
             <div className="pokemon-card">
-                <h3>{pokemon.name}</h3>
+                <h3>{capitalizeFirstLetter(pokemon.name)}</h3>
                 <img src={pokemon.sprites.front_default} alt={pokemon.name} />
             </div>
         </Link>

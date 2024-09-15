@@ -1,0 +1,32 @@
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 2rem auto
+}
+
+.detail-container img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.pokemon-info {
+    text-align: left;
+    width: 100%;
+}
+
+.pokemon-info p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.pokemon-info strong {
+    color: #333;
+}
