@@ -1,0 +1,27 @@
+/* PokemonCard */
+.pokemon-card {
+    
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 4px;
+    text-align: center;
+    transition: transform 0.2s;
+
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+}
+
+/* PokemonList */
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
