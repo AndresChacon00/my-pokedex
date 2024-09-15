@@ -1,5 +1,6 @@
 html, body, #root {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -8,6 +9,8 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%s;
+  background-color: aqua;
 }
 
 header {
@@ -23,7 +26,7 @@ header {
 nav {
   display: flex;
   align-items: 'center';
-  width: 100%;
+  padding: 1rem;
   background-color: rgb(247, 182, 43);
   
 }

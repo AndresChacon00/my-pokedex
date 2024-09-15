@@ -1,5 +1,6 @@
 import { Link, Outlet } from 'react-router-dom'
 import './App.css'
+import { FaSearch } from 'react-icons/fa'
 
 
 function App() {
@@ -10,10 +11,12 @@ function App() {
         <h1>Pokedex</h1>
         <nav>
           <Link to="/">Home</Link>
-          <Link to="/search">Search</Link>
+          <Link to="/search">Search <FaSearch /></Link>
         </nav>
       </header>
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
     </div>
   )
 }

@@ -1,9 +1,13 @@
 /* PokemonCard */
 .pokemon-card {
-    
-    border: 1px solid #ddd;
+    flex: 1 1 300px;
+    max-width: 300px;
+    box-sizing: border-box;
+    border: 4px solid #3b3737;
     border-radius: 8px;
-    padding: 16px;
+    background-color: rgb(189, 236, 187);
+    color: black;
+    padding: 1.5rem;
     margin: 4px;
     text-align: center;
     transition: transform 0.2s;
@@ -23,5 +27,8 @@
 .pokemon-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    padding: 1rem;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
